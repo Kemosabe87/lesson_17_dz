@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Lesson_17_dz</title>
+    </head>
+    <body>
+        <!----------------Обложка сайта -->
+        <div class="wrapper">
+            <!-----------------Шапка сайта----------- -->
+            <header class="header">
+                <div class="header__container" id="top">
+                    <a href="" class="header__logo ">
+                        <img src="img/logo/logo.svg" alt="logo">
+                    </a>
+                    <nav class="header__menu menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="" class="menu__link">About Us</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link">Courses</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link">Events</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link">Blog</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link">Contacts</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__action action">
+                        <a href="" class="action__button button">
+                            <span>Get consultation</span>
+                        </a>
+                        <a href="" class="action__register">
+                            <span>Log in / Register</span>
+                        </a>
+                    </div>
+                </div>
+            </header>
+            <!---------------Главная страница сайта----------- -->
+            <main class="page">
+                <div class="page__contact contact">
+                    <div class="contact__container">
+                        <div class="contact__body body">
+                            <div class="body__content content">
+                                <h3 class="content__subtitle subtitle">Contact info</h3>
+                                <h2 class="content__title title">Get in touch</h2>
+                                <div class="content__info">
+                                    <div class="content__email email">
+                                        <h6 class="email__title">Talk to us:</h6>
+                                        <a class="email__mail" href="mailto:hello@createx.com">hello@createx.com</a>
+                                    </div>
+                                    <div class="content__telephone telephone">
+                                        <h6 class="telephone__title">Call us:</h6>
+                                        <a class="telephone__tel" href="tel:+4055550128">(405) 555-0128</a>
+                                    </div>
+                                    <div class="content__address address">
+                                        <h6 class="address__title">Address:</h6>
+                                        <a class="address__add" target="_blank" href="">2464 Royal Ln. Mesa, New Jersey 45463, USA</a>
+                                    </div>
+                                </div>
+                                <div class="content__messenger messenger">
+                                    <div class="messenger__subtitle subtitle">Follow us:</div>
+                                    <div class="messenger__logo">
+                                        <a href="">
+                                            <img src="img/icons/facebook.svg" alt="">
+                                        </a>
+                                        <a href="">
+                                            <img src="img/icons/twitter.svg" alt="">
+                                        </a>
+                                        <a href="">
+                                            <img src="img/icons/YouTube.svg" alt="">
+                                        </a>
+                                        <a href="">
+                                            <img src="img/icons/telegram.svg" alt="">
+                                        </a>
+                                        <a href="">
+                                            <img src="img/icons/Instagram.svg" alt="">
+                                        </a>
+                                        <a href="">
+                                            <img src="img/icons/Linked-In.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="body__map map">
+                                <img class="map__location" src="img/solid.png" alt="image">
+                                <img src="img/image.jpg" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page__registration registration  ">
+                    <div class="registration__container">
+                        <div class="registration__media">
+                            <img class="registration__image" src="img/illustration.svg" alt="image">
+                        </div>
+                        <div class="registration__area area">
+                            <div class="area__title-block">
+                                <div class="area__subtitle subtitle">Any questions?</div>
+                                <div class="area__title title">Drop us a line</div>
+                            </div>
+                            <form action="https://jsonplaceholder.typicode.com/posts" class="area__form form-area" method="POST">
+                                <div class="form-area__text-block">
+                                    <div class="form-area__line">
+                                        <label for="fname" class="form-area__label">First Name*</label>
+                                        <input
+                                            type="text"
+                                            class="form-area__input"
+                                            autocomplete="off"
+                                            placeholder="Your first name"
+                                            name="first-name"
+                                            id="fname"
+                                            required
+                                        >
+                                    </div>
+                                    <div class="form-area__line">
+                                        <label for="lname" class="form-area__label">Last  Name*</label>
+                                        <input
+                                            type="text"
+                                            class="form-area__input"
+                                            autocomplete="off"
+                                            placeholder="Your last name"
+                                            name="last-name"
+                                            id="lname"
+                                            required
+                                        >
+                                    </div>
+                                    <div class="form-area__line">
+                                        <label for="ename" class="form-area__label">Email*</label>
+                                        <input
+                                            type="email"
+                                            class="form-area__input"
+                                            autocomplete="off"
+                                            placeholder="Your working email"
+                                            name="last-name"
+                                            id="ename"
+                                            required
+                                        >
+                                    </div>
+                                    <div class="form-area__line">
+                                        <label for="pname" class="form-area__label">Phone</label>
+                                        <input
+                                            type="tel"
+                                            class="form-area__input"
+                                            autocomplete="off"
+                                            placeholder="Your phone number"
+                                            name="last-name"
+                                            id="pname"
+                                        >
+                                    </div>
+                                    <div class="form-area__line form-area__line--textarea">
+                                        <label for="message" class="form-area__label">Message*</label>
+                                        <textarea
+                                            name="message"
+                                            id="message"
+                                            placeholder="Your message"
+                                            class="form-area__textarea"
+                                            required
+                                        ></textarea>
+                                    </div>
+                                    <div class="form-area__line form-area__line--radio">
+                                        <h5 class="form-area__subtitle-radio">You are married?</h5>
+                                        <input
+                                            type="radio"
+                                            id="married-01"
+                                            name="married"
+                                            class="form-area__input area-radio"
+                                            value="yes"
+                                            required
+                                        >
+                                        <label for="married-01" class="form-area__label">
+                                            <span></span>
+                                            yes
+                                        </label>
+                                        <input
+                                            type="radio"
+                                            id="married-02"
+                                            name="married"
+                                            class="form-area__input area-radio"
+                                            value="no"
+                                            required
+                                        >
+                                        <label for="married-02" class="form-area__label">
+                                            <span></span>
+                                            no
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-area__send-block">
+                                    <div class="form-area__line checkbox">
+                                        <input
+                                            class="checkbox__input area-radio"
+                                            name="com"
+                                            id="com"
+                                            type="checkbox"
+                                        >
+                                        <label class="checkbox__label" for="com">I agree to receive communications from Createx Online School</label>
+                                    </div>
+                                    <div class="form-area__line">
+                                        <button class="form-area__button button button-big" type="submit">
+                                            <span>Send message</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!-----------------Подвал сайта--------------------і -->
+            <footer class="footer">
+                <div class="footer__top">
+                    <div class="footer__container-main">
+                        <div class="footer__main">
+                            <div class="footer__info">
+                                <a href="" class="footer__logo">
+                                    <img src="img/logo/logo-01.svg" alt="logo">
+                                </a>
+                                <div class="footer__text"> Createx Online School is a leader in online studying. We have lots of courses and programs from the main market experts. We provide relevant approaches to online learning, internships and employment in the largest companies in the country.</div>
+                                <div class="footer__social social ">
+                                    <div class="social__logo">
+                                        <a href="#">
+                                            <img src="img/icons/facebook.svg" alt="facebook">
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/icons/twitter.svg" alt="twitter">
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/icons/YouTube.svg" alt="twitter">
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/icons/telegram.svg" alt="YouTube">
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/icons/Instagram.svg" alt="Instagram">
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/icons/Linked-In.svg" alt="Linked-In">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer__map">
+                                <div class="footer__subtitle">SITE MAP</div>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a href="#">About Us</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a href="#">Courses</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a href="#">Events</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a href="#">Blog</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a href="#">Contacts</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer__courses">
+                                <div class="footer__subtitle">COURSES</div>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a href="#">Marketing</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a href="#">Management</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a href="#">HR & Recruting</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a href="#">Design</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a href="#">Development</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer__contacts">
+                                <div class="footer__subtitle">CONTACT US</div>
+                                <ul class="footer__list">
+                                    <li class="footer__item">
+                                        <a href="tel:+405550128" class="footer__item footer__item--phone ">(405) 555-0128</a>
+                                    </li>
+                                    <li class="footer__item">
+                                        <a href="mailto:hello@createx.com" class="footer__item footer__item--mail ">hello@createx.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer__sign">
+                                <div class="footer__subtitle footer__subtitle--sign ">SIGN UP TO OUR NEWSLETTER</div>
+                                <form action="https://jsonplaceholder.typicode.com/posts" class="footer__form form">
+                                    <div class="form__line">
+                                        <input
+                                            class="form__input"
+                                            type="email"
+                                            required
+                                            name="email"
+                                            placeholder="Email address"
+                                        >
+                                        <button type="submit" class="form__button"></button>
+                                    </div>
+                                </form>
+                                <div class="footer__text-bottom">*Subscribe to our newsletter to receive communications and early updates from Createx SEO Agency.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <div class="footer__container-bottom">
+                        <div class="footer__copy">
+                            © All rights reserved.Made with
+                            <span>by Createx Studio</span>
+                        </div>
+                        <a href="#top" class="footer__gototop">GO TO TOP</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
